@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+body {
+    max-width: 100vw; 
+    font-family: 'Comic Neue', cursive;
+    justify-content:center;
+    margin: 100px;
+    align-self:flex-start;
+}
+header{
+    background-position: center center;
+	background-image: url("../assets/design1_image1.jpg");
+	background-size: cover;
+    align-items: center;
+    position: relative;
+}
+header h1{
+    text-align: left;
+    font-size: 300%;
+}
+header h2{
+    background-color: black;
+    color: white;
+    text-align:center;
+
+}
+header .logo {
+    position:absolute;
+    top: 50%;
+    left: 60%;
+}
+header nav{
+   display: inline-flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 20%;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+header nav a{
+    margin: 10%;
+}
+.container{
+    flex-direction:row;
+    float: right;
+    width: 80%;
+}
+.container .title{
+    text-align: center;
+}
+.container .ps{
+    text-indent: 1.5em;
+
+}
+.container table{
+    text-align: center;
+}
+h4{
+    text-decoration: underline;
+}
+th{
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
