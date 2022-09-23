@@ -45,6 +45,7 @@ header nav a{
     flex-direction:row;
     float: right;
     width: 80%;
+    list-style-position: inside;
 }
 .container .title{
     text-align: center;
@@ -81,4 +82,7 @@ span{
 }
 .container table{
     align-content: center;
+}
+ol li{
+    padding-left:0;
 }
